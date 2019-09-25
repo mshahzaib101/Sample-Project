@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home-Meet Up</title>
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<!--navebar-->
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top" style="background-color: #0f1721">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" width="120" height="40" class="d-inline-block align-top nave-logo indent" title="Meet Up" alt="meet up .com">
+  </a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto float-right">
+      <li class="nav-item active indent">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#login">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#myModal" data-toggle="modal">Sign up</a>
+      </li>
+      <li class="nav-item margin">
+        <a class="nav-link" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--navebar-->
+<br><br><br><br><br><br><br>
+<!--first pic-->
+<div class="div1 container">
+      <div class="row">
+      <div class="col-lg-5 col-xs-5">
+    <h1 class="h1 h1m text-left mx-auto"><img src="https://secure.meetupstatic.com/s/img/75054152263833930207/app_download/demo/m_swarm_logo.svg" class="img-fluid img2" alt="image">Meet the new <br>Meetup App</h1>
+    <p>Meetup with people who love what you love, and keep the conversation going.</p>
+    </div>
+    <div class="col-lg-6 col-xs-6">
+    <img src="images/pic1.png" class="img-fluid mimg float-right" alt="image">
+    </div>
+    </div>
+    
+</div>
+<!--first pic-->
+<!--second pic-->
+<div class="div1 container c1">
+      <div class="row">
+        <div class="col-4">
+    <img src="images/pic2.png" class="img-fluid float-right mimg2" alt="image">
+    </div>
+      <div class="col-5 float-right m1">
+    <h1 class="h1 mx-auto">Create your own Events and view others</h1>
+    <p>The only meet up app which makes organization of event easily.Create your exciting events and connect them with world.</p>
+    </div>
+    
+    </div>
+    
+</div>
+
+<!--second pic-->
+<!--login-->
+<div class="row div1" style="padding-bottom: 40px; padding-top: 30px;" id="login">
+  <div class="col-4 div2">
+<h1 class="h1 mx-auto">Login now to connect your events with world</h1>
+</div>
+
+
+<div class="col block">
+<div class="container">
+  <form>
+
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-6 input-group">
+        <span class="input-group-addon" id="sizing-addon2" ></span>
+        <input type="email" class="form-control input" id="InputEmailLogin" required="required" placeholder="Email" aria-describedby="sizing-addon2">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-6 input-group">
+        <span class="input-group-addon" id="sizing-addon2" ></span>
+        <input type="password" class="form-control input" id="InputPasswordLogin" placeholder="Password" required="required">
+        
+      </div>
+      
+      <button type="submit" class="btn btn-primary mbtn">Submit</button>
+      <p class="createa"><br><span class="s1">or</span> <br><a href="#myModal" data-toggle="modal" class="a1">Create account today and connect with world</a></p>
+    </div>
+    
+  </form>
+  </div>
+</div>
+</div>
+</div>
+<!--login-->
+<!--modal-->
+
+<!-- Modal -->
+<div class="modal fade signupmodal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="return signUp();">
+                  <div class="form-group signupmargin">
+                <label for="InputUserName">Username:</label>
+                <input type="text" class="form-control" id="InputUserNameSignUp" placeholder="Your Name" required="required">
+              </div>
+            <div class="form-group signupmargin">
+                <label for="InputEmail1">Email address:</label>
+                <input type="email" class="form-control" id="InputEmailSignUp" required="required" aria-describedby="emailHelp" placeholder="ex: ms@gmail.com">
+                <small id="emailHelp" class="form-text text-muted">your email is protected</small>
+              </div>
+              <div class="form-group signupmargin">
+                <label for="InputPasswordSignUp">Password</label>
+                <input type="password" class="form-control" id="InputPasswordSignUp" placeholder="Password" minlength="6" required="required">
+              </div>
+        
+        ...
+      </div>
+      <div class="modal-footer">
+        <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+        <button type="submit" class="btn btn-primary" id="submitbtn">Submit</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!--modal-->
+<br><br><br>
+<!--footer-->
+<div class="footer">
+  <p class="sp">Designed by: <a class="aa" href="http://shahzaib-com.firebaseapp.com">Bazooka.co</a><br>
+  Developer: M.Shahzaib (3662)
+  </p>
+
+
+</div>
+
+
+<!--footer-->
+<!--BOOTSTRAP-->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!--BOOTSTRAP-->
+
+<!--firebase-->
+
+<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBIWi_DByC4bWl4jCdK4HAjTf9JT9Z8Lio",
+    authDomain: "shahzaib-com-app2.firebaseapp.com",
+    databaseURL: "https://shahzaib-com-app2.firebaseio.com",
+    projectId: "shahzaib-com-app2",
+    storageBucket: "shahzaib-com-app2.appspot.com",
+    messagingSenderId: "40562049975"
+  };
+  firebase.initializeApp(config);
+</script>
+<!--firebase-->
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+body{
+/*color: #f64060;*/
+background-color: white;
+font-family: "Graphik Meetup",helvetica,arial,sans-serif;
+font-size: 1.000em;
+line-height: 1.4em;
+font-weight: 500;
+color: rgba(0, 0, 0, 0.87);
+}
+
+.nav-link{
+    font-size: 1.111em;
+}
+.navbar{
+    padding: -10px;
+    padding-left: 30px;
+}
+.nave-logo{
+    position: relative;
+}
+.indent{
+    text-indent: 20px;
+}
+.margin{
+    margin-right: 30px;
+}
+.div1{
+    width: 70%;
+    margin: 50px auto;
+    border-bottom: solid 2px gray;
+    padding-bottom: 5px;
+}
+.mimg{
+    position: relative;
+    display: block;
+    bottom: 105px;
+}
+.mimg2{
+    position: relative;
+    right: -55px;
+}
+.h1{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 2.333em;
+    line-height: 1em;
+    font-weight: 600;
+}
+.h1m{
+    text-indent: -81px;
+    display: block;
+}
+.img2{
+    vertical-align: -11px;
+}
+.c1{
+    margin-top: 90px;
+    padding-bottom: 110px;
+}
+.m1{
+    margin-left: 150px;
+    margin-top: 90px;
+}
+.block{
+    display: block;
+    float: left;
+    position: relative;
+    bottom: 126px;
+    left: 350px;
+}
+.div2{
+    margin-top: 80px;
+}
+.mbtn{
+    display: block;
+    position: relative;
+    top: 52px;
+    right: 102px;
+    background-color: #0f1721;
+    color: white;
+}
+.mbtn:hover{
+    background-color: rgba(15, 23, 33, 0.62);
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: #0f1721;
+    padding-top: 30px;
+    margin-bottom: 
+}
+.sp{
+    color: #25749f;
+    text-align: center;
+}
+.aa{
+    text-decoration: none;
+    color: #25749f;
+}
+.createa{
+    text-align: center;
+    margin-left: 77px;
+    margin-top: -8px;
+}
+.s1{
+    font-weight: bold;
+}
+.a1{
+    color: #0f72a2;
+    font-style: italic;
+}
+.a1:hover{
+    text-decoration: underline;
+    color: rgba(15, 23, 33, 0.62);
+}
+.signupmodal{
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+}
+.h5{
+    font-weight: 500;
+}
+.form-control{
+    font-size: 13px;
+}
+.signupmargin{
+    margin-bottom: 15px;
+}
